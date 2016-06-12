@@ -1,0 +1,46 @@
+.search{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ddd;
+  margin-top: 30px;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.form-group{
+  text-align: center;
+}
+
+.search:focus{
+  outline: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+}
+
+.fa-search{
+  color: #d1d3d4;
+}
+
+.col-sm-1{
+  height: 400px;
+}
+
+.nylogo{
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.categories{
+  color: white;
+}
+
+.title{
+color: white;
+}
+
+.gitHub{
+  bottom: 0px;
+  right: 10px;
+  position: fixed;
+}

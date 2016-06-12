@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="searchterm">{{businessTitle}}</div>
+    <div class="col-md-4" ng-repeat="bus in businessSearch">
+      <div class="list-group">
+        <a target="_blank" ng-href="{{bus.url}}" class="list-group-item">
+          <img class="imgPreview" ng-src="{{bus.multimedia[0].url}}"/>
+            <h4 class="list-group-item-heading headline">{{bus.title}}</h4>
+              <p class="list-group-item-text author">{{bus.abstract}}</p>
+                <p class="list-group-item-text author">{{bus.byline}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

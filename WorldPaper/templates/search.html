@@ -1,0 +1,19 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="searchTerm">
+      <p>{{searchTerm | uppercase}}</p>
+    </div>
+      <div class="col-md-4 animated fadeIn" ng-repeat="story in stories">
+        <div class="list-group">
+          <a target="_blank" ng-href="{{story.web_url}}" class="list-group-item">
+            <img class="imgPreview" ng-src="http://static01.nyt.com/{{story.multimedia[0].url}}"/>
+              <h4 class="list-group-item-heading headline">{{story.headline.main}}</h4>
+                <p class="list-group-item-text author">{{story.lead_paragraph}}</p>
+                  <p class="list-group-item-text author">{{story.byline.original}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>

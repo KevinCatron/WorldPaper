@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="searchterm">{{travelTitle}}</div>
+    <div class="col-md-4 animated fadeIn" ng-repeat="t in travelSearch">
+      <div class="list-group">
+        <a target="_blank" ng-href="{{t.url}}" class="list-group-item">
+          <img class="imgPreview" ng-src="{{t.multimedia[0].url}}"/>
+            <h4 class="list-group-item-heading headline">{{t.title}}</h4>
+              <p class="list-group-item-text author">{{t.abstract}}</p>
+                <p class="list-group-item-text author">{{t.byline}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

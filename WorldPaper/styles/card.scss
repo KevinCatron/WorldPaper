@@ -1,0 +1,41 @@
+.list-group-item{
+  border-radius: 50px;
+}
+.list-group-item-heading{
+  height: 50px;
+}
+
+.list-group-item-text{
+height: 50px;
+}
+
+.imgPreview{
+height: 100px;
+width: 100px;
+float:left;
+border-radius: 20px;
+}
+
+.headline{
+  font-size: 14px;
+  overflow: hidden;
+  margin-left: 110px;
+  margin-bottom: -20px;
+}
+
+.author{
+  font-size: 10px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.searchterm{
+  margin: 20px 0;
+}
+
+.ng-enter {
+   -webkit-animation: fadeIn 1s;
+   -moz-animation: fadeIn 1s;
+   -ms-animation: fadeIn 1s;
+   animation: fadeIn 1s;
+ }

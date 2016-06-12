@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="searchterm">{{techTitle}}</div>
+    <div class="col-md-4 animated fadeIn" ng-repeat="tech in techSearch">
+      <div class="list-group">
+        <a target="_blank" ng-href="{{tech.url}}" class="list-group-item">
+          <img class="imgPreview" ng-src="{{tech.multimedia[0].url}}"/>
+            <h4 class="list-group-item-heading headline">{{tech.title}}</h4>
+              <p class="list-group-item-text author">{{tech.abstract}}</p>
+                <p class="list-group-item-text author">{{tech.byline}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

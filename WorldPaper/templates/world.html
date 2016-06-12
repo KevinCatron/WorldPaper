@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="searchterm">{{worldTitle}}</div>
+    <div class="col-md-4 animated fadeIn" ng-repeat="w in worldSearch">
+      <div class="list-group">
+        <a target="_blank" ng-href="{{w.url}}" class="list-group-item">
+          <img class="imgPreview" ng-src="{{w.multimedia[0].url}}"/>
+            <h4 class="list-group-item-heading headline">{{w.title}}</h4>
+              <p class="list-group-item-text author">{{w.abstract}}</p>
+                <p class="list-group-item-text author">{{w.byline}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

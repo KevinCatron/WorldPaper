@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="searchterm">{{fashionTitle}}</div>
+    <div class="col-md-4" ng-repeat="f in fashionSearch">
+      <div class="list-group">
+        <a target="_blank" ng-href="{{f.url}}" class="list-group-item">
+          <img class="imgPreview" ng-src="{{ f.multimedia[0].url }}"/>
+            <h4 class="list-group-item-heading headline">{{f.title}}</h4>
+            <p class="list-group-item-text author">{{f.abstract}}</p>
+              <p class="list-group-item-text author">{{f.byline}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
